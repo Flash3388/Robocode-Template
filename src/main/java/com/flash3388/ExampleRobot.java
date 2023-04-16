@@ -1,6 +1,6 @@
 package com.flash3388;
 
-public class Robot extends robocode.Robot {
+public class ExampleRobot extends robocode.Robot {
 
     @Override
     public void run() {
