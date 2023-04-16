@@ -19,9 +19,9 @@ robocode {
 
     robots {
         register(ROBOT_NAME) {
-            classPath = "com.flash3388.${ROBOT_NAME}"
+            classPath = "com.flash3388.Robot"
             version = VERSION
-            description = "Some description"
+            description = ""
         }
     }
 }
