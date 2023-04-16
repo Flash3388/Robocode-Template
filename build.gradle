@@ -1,0 +1,27 @@
+plugins {
+    id "com.bnorm.robocode" version "0.1.1"
+}
+
+group GROUP
+version VERSION
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+robocode {
+    download = true
+    downloadVersion = "1.9.5.0"
+
+    robots {
+        register(ROBOT_NAME) {
+            classPath = "com.flash3388.${ROBOT_NAME}"
+            version = VERSION
+            description = "Some description"
+        }
+    }
+}
